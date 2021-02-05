@@ -1,0 +1,27 @@
+{
+    "name": "@as2network/batch-util",
+    "version": "0.0.1",
+    "description": "batch Ethereum transactions",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "ganache": "ganache-cli --deterministic",
+        "compile": "node compile.js",
+        "postinstall": "npm run compile"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "bn.js": "^5.0.0",
+        "ganache": "^6.4.4",
+        "ganache-cli": "^6.12.2",
+        "jest": "^24.9.0",
+        "prettier": "^2.2.1",
+        "prettier-plugin-solidity": "^1.0.0-beta.3",
+        "solc": "^0.5.12",
+        "solhint": "^3.3.2",
+        "solium": "^1.2.5",
+        "truffle": "^5.1.63",
+        "web3": "^1.2.1"
+    }
+}

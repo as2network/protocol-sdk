@@ -41,7 +41,7 @@ jobs:
       - name: yarn install, build, and test
         run: |
           yarn install
-          yarn install lerna 
+          yarn add lerna 
           yarn run lerna bootstrap
         env:
           CI: true
